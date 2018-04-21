@@ -13,5 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Quelldateien\Core">
+      <UniqueIdentifier>{ad7397f3-4d12-4ec6-a583-052f757a8c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core">
+      <UniqueIdentifier>{d02685fc-b910-4390-aaf4-9dde6355f91c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SoftwareManager.cpp">
+      <Filter>Quelldateien\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\include\Core\SoftwareManager.h">
+      <Filter>Headerdateien\Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
