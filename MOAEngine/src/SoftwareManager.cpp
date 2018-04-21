@@ -19,7 +19,6 @@ bool MOA::Core::SoftwareManager::CreateInstance()
 
 bool MOA::Core::SoftwareManager::Init()
 {
-	//TODO: Init rendering, init 
 	return false;
 }
 
